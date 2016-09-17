@@ -1,0 +1,77 @@
+$gray: #858585;
+
+body {
+	font-family: 'Open Sans', Arial;
+}
+
+h1 {
+	font-weight: normal;
+	text-align: center;
+}
+
+h2 {
+	border-bottom: solid $gray 1px;
+	font-size: 1.25em;
+	padding-bottom: 0.25em;
+}
+
+#basicData {
+	margin-bottom: 4em;
+
+	.row {
+		display: flex;
+		width: 100%;
+	}
+
+	.label, .value {
+		margin: 0;
+		padding: 0 0.5ex;
+		width: 50%;
+	}
+
+	.label {
+		text-align: right;
+
+		&:after {
+			content: ':';
+		}
+	}
+}
+
+.history {
+	.row {
+		display: table-row;
+	}
+
+	.dateRange {
+		display: table-cell;
+		padding-bottom: 1em;
+		padding-right: 2ex;
+		white-space: nowrap;
+	}
+
+	.value {
+		padding-bottom: 1em;
+	}
+}
+
+ul {
+	display: flex;
+	flex-wrap: wrap;
+	padding-bottom: 1em;
+	width: 100%;
+
+	li {
+		width: 33%;
+	}
+}
+
+footer {
+	bottom: 0;
+	color: $gray;
+	font-size: 0.75em;
+	left: 0;
+	position: absolute;
+	right: 0;
+	text-align: center;
+}
