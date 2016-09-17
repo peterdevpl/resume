@@ -86,7 +86,7 @@
 				<footer>
 					Dokument został napisany w formacie XML, następnie przetworzony na HTML za pomocą arkusza XSLT.<br />
 					Końcowy plik PDF wygenerowano za pomocą PhantomJS.<br />
-					Kod źródłowy dokumentu jest dostępny pod adresem https://github.com/ph/resume
+					Kod źródłowy dokumentu jest dostępny pod adresem https://github.com/phorzycki/resume
 				</footer>
 			</body>
 		</html>
