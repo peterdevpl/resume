@@ -2,10 +2,12 @@ $gray: #858585;
 
 body {
 	font-family: 'Open Sans', Arial;
+	font-size: 10px;
 }
 
 h1 {
 	font-weight: normal;
+	margin-top: 3em;
 	text-align: center;
 }
 
@@ -19,6 +21,8 @@ h2 {
 	margin-bottom: 4em;
 
 	.row {
+		display: -webkit-box;
+		display: -webkit-flex;
 		display: flex;
 		width: 100%;
 	}
@@ -56,7 +60,11 @@ h2 {
 }
 
 ul {
+	display: -webkit-box;
+	display: -webkit-flex;
 	display: flex;
+	-webkit-box-wrap: wrap;
+	-webkit-flex-wrap: wrap;
 	flex-wrap: wrap;
 	padding-bottom: 1em;
 	width: 100%;
