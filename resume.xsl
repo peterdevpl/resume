@@ -9,6 +9,7 @@
 			</head>
 			<body>
 				<header>
+					<img src="{photo}" alt="Zdjęcie" />
 					<h1><xsl:value-of select="name" /></h1>
 				</header>
 

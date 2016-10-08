@@ -10,6 +10,7 @@
 		<username>piotr.horzycki</username>
 		<domain>gmail.com</domain>
 	</email>
+	<photo>resume.jpg</photo>
 
 	<education>
 		<university>
@@ -25,7 +26,7 @@
 		<job>
 			<startDate>2014-11</startDate>
 			<company>Gdańskie Wydawnictwo Oświatowe</company>
-			<duties>programista PHP, code reviewer, wdrożeniowiec</duties>
+			<duties>programista PHP, code review, deployment</duties>
 		</job>
 		<job>
 			<startDate>2013-12</startDate>
@@ -42,12 +43,12 @@
 	</employment>
 
 	<skills>
-		<skill>PHP OOP</skill>
-		<skill>MySQL, PostgreSQL</skill>
+		<skill>obiektowe PHP 5/7</skill>
+		<skill>optymalizacja baz MySQL</skill>
 		<skill>HTML 5, CSS 3, SCSS, JQuery</skill>
 		<skill>Git, GitLab, CI, Vagrant</skill>
 		<skill>node.js, bower, gulp</skill>
-		<skill>bash, memcached</skill>
+		<skill>bash</skill>
 	</skills>
 
 	<dreams>
