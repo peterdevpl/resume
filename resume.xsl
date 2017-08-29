@@ -15,7 +15,7 @@
 				<section id="basicData">
 					<div class="row">
 						<div class="label">Urodzony</div>
-						<div class="value"><xsl:value-of select="birthday" />, <xsl:value-of select="birthplace" /></div>
+						<div class="value"><xsl:value-of select="birthday" /></div>
 					</div>
 					<div class="row">
 						<div class="label">Miejsce zamieszkania</div>

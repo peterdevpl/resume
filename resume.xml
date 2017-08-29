@@ -2,8 +2,7 @@
 <?xml-stylesheet type="text/xsl" href="resume.xsl"?>
 <resume>
 	<name>Piotr Horzycki</name>
-	<birthday>1989-04-22</birthday>
-	<birthplace>Kutno</birthplace>
+	<birthday>1989</birthday>
 	<city>Gdańsk</city>
 	<phone>508-562-247</phone>
 	<email>
@@ -23,7 +22,13 @@
 
 	<employment>
 		<job>
+			<startDate>2016-11</startDate>
+			<company>Yellow Dot</company>
+			<duties>szef zespołu programistów PHP</duties>
+		</job>
+		<job>
 			<startDate>2014-11</startDate>
+			<endDate>2016-11</endDate>
 			<company>Gdańskie Wydawnictwo Oświatowe</company>
 			<duties>programista PHP, code reviewer, wdrożeniowiec</duties>
 		</job>
@@ -42,17 +47,17 @@
 	</employment>
 
 	<skills>
-		<skill>PHP OOP</skill>
+		<skill>PHP 7, Symfony 3</skill>
+		<skill>SOLID, TDD</skill>
 		<skill>MySQL, PostgreSQL</skill>
-		<skill>HTML 5, CSS 3, SCSS, JQuery</skill>
-		<skill>Git, GitLab, CI, Vagrant</skill>
+		<skill>Git, GitLab CI, Vagrant</skill>
 		<skill>node.js, bower, gulp</skill>
-		<skill>bash, memcached</skill>
+		<skill>bash</skill>
 	</skills>
 
 	<dreams>
-		<dream>Domain Driven Design</dream>
-		<dream>MongoDB, RabbitMQ</dream>
+		<dream>Domain-Driven Design</dream>
+		<dream>Event Sourcing</dream>
 		<dream>skalowalność</dream>
 	</dreams>
 
