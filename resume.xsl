@@ -4,11 +4,12 @@
 		<html>
 			<head>
 				<title>CV - <xsl:value-of select="name" /></title>
-				<link rel="stylesheet" href="build/resume.css" />
+				<link rel="stylesheet" href="resume.css" />
 				<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800&amp;subset=latin,latin-ext" />
 			</head>
 			<body>
 				<header>
+					<img src="{photo}" alt="Zdjęcie" />
 					<h1><xsl:value-of select="name" /></h1>
 				</header>
 

@@ -1,10 +1,11 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 var sourcemaps = require('gulp-sourcemaps');
+var xslt = require('gulp-xslt');
+
+var buildDir = './build';
 
 gulp.task('buildSass', function() {
-	var buildDir = './build';
-
 	gulp.src('*.scss')
 		.pipe(sourcemaps.init())
 		.pipe(sass({
@@ -14,7 +15,13 @@ gulp.task('buildSass', function() {
 		.pipe(gulp.dest(buildDir));
 });
 
-gulp.task('default', ['buildSass']);
+gulp.task('transformXml', function() {
+	gulp.src('*.xml')
+		.pipe(xslt('resume.xsl'))
+		.pipe(gulp.dest(buildDir));
+});
+
+gulp.task('default', ['buildSass', 'transformXml']);
 
 gulp.task('watch', function() {
 	gulp.watch('*.scss', ['buildSass']);

@@ -9,6 +9,7 @@
 		<username>piotr.horzycki</username>
 		<domain>gmail.com</domain>
 	</email>
+	<photo>resume.jpg</photo>
 
 	<education>
 		<university>
@@ -30,7 +31,7 @@
 			<startDate>2014-11</startDate>
 			<endDate>2016-11</endDate>
 			<company>Gdańskie Wydawnictwo Oświatowe</company>
-			<duties>programista PHP, code reviewer, wdrożeniowiec</duties>
+			<duties>programista PHP, code review, deployment</duties>
 		</job>
 		<job>
 			<startDate>2013-12</startDate>
