@@ -9,7 +9,6 @@
 			</head>
 			<body>
 				<header>
-					<img src="{photo}" alt="Zdjęcie" />
 					<h1><xsl:value-of select="name" /></h1>
 				</header>
 
@@ -30,6 +29,14 @@
 						<div class="label">E-mail</div>
 						<div class="value"><xsl:apply-templates select="email" /></div>
 					</div>
+                    <div class="row">
+                        <div class="label">Linki</div>
+                        <div class="value">
+                            <xsl:for-each select="links/link">
+                                <a href="{.}"><xsl:value-of select="." /></a><br />
+                            </xsl:for-each>
+                        </div>
+                    </div>
 				</section>
 
 				<section class="history">
@@ -58,22 +65,25 @@
 				</section>
 				
 				<section>
-					<h2>Umiejętności</h2>
+					<h2>Znajomość technologii</h2>
 					<ul class="skills">
 						<xsl:for-each select="skills/skill">
 							<li><xsl:value-of select="." /></li>
 						</xsl:for-each>
 					</ul>
 				</section>
-
-				<section>
-					<h2>Chciałbym lepiej poznać</h2>
-					<ul>
-						<xsl:for-each select="dreams/dream">
-							<li><xsl:value-of select="." /></li>
-						</xsl:for-each>
-					</ul>
-				</section>
+                
+                <section id="conferences">
+                    <h2>Udział w konferencjach</h2>
+                    <ul>
+                        <xsl:for-each select="conferences/conference">
+                            <li>
+                                <xsl:value-of select="name" /> – <xsl:value-of select="date" /> – <em><xsl:value-of select="title" /></em>
+                                <xsl:if test="link"> – <a href="{link}"><xsl:value-of select="link" /></a></xsl:if>
+                            </li>
+                        </xsl:for-each>
+                    </ul>
+                </section>
 
 				<section>
 					<h2>Zainteresowania</h2>
@@ -85,8 +95,7 @@
 				</section>
 				
 				<footer>
-					Dokument został napisany w formacie XML, następnie przetworzony na HTML za pomocą arkusza XSLT.<br />
-					Końcowy plik PDF wygenerowano za pomocą PhantomJS.<br />
+					Dokument został napisany w formacie XML i przetworzony na HTML za pomocą arkusza XSLT. PDF wygenerowano poprzez Google Chrome w trybie headless<br />
 					Kod źródłowy dokumentu jest dostępny pod adresem https://github.com/phorzycki/resume
 				</footer>
 			</body>

@@ -9,6 +9,11 @@
 		<username>piotr.horzycki</username>
 		<domain>gmail.com</domain>
 	</email>
+    <links>
+        <link>https://piotrdev.blogspot.com/</link>
+        <link>https://twitter.com/phorzycki</link>
+        <link>https://github.com/phorzycki</link>
+    </links>
 	<photo>resume.jpg</photo>
 
 	<education>
@@ -25,7 +30,7 @@
 		<job>
 			<startDate>2016-11</startDate>
 			<company>Yellow Dot</company>
-			<duties>szef zespołu programistów PHP</duties>
+			<duties>szef zespołu programistów PHP na zlecenie Gdańskiego Wydawnictwa Oświatowego</duties>
 		</job>
 		<job>
 			<startDate>2014-11</startDate>
@@ -49,12 +54,27 @@
 
 	<skills>
 		<skill>PHP 7, Symfony 3</skill>
-		<skill>SOLID, TDD</skill>
+		<skill>SOLID, testy automatyczne</skill>
 		<skill>MySQL, PostgreSQL</skill>
 		<skill>Git, GitLab CI, Vagrant</skill>
-		<skill>node.js, bower, gulp</skill>
-		<skill>bash</skill>
+		<skill>node.js, gulp</skill>
+		<skill>ElasticSearch, RabbitMQ, Redis</skill>
 	</skills>
+    
+    <conferences>
+        <conference>
+            <name>PHPers Trójmiasto</name>
+            <date>22 listopada 2016 r.</date>
+            <title>Ostre odchudzanie baz danych</title>
+            <link>https://youtu.be/bgNGrCrn9-w</link>
+        </conference>
+        <conference>
+            <name>phpCE 2017 Ossa</name>
+            <date>3-5 listopada 2017 r.</date>
+            <title>Jak zacząć, aby nie żałować; Time-driven applications</title>
+            <link>https://2017.phpce.eu/pl/</link>
+        </conference>
+    </conferences>
 
 	<dreams>
 		<dream>Domain-Driven Design</dream>
