@@ -14,15 +14,15 @@
 
                 <section id="basicData">
                     <div class="row">
-                        <div class="label">Urodzony</div>
+                        <div class="label">Born</div>
                         <div class="value"><xsl:value-of select="birthday" /></div>
                     </div>
                     <div class="row">
-                        <div class="label">Miejsce zamieszkania</div>
+                        <div class="label">Place of living</div>
                         <div class="value"><xsl:value-of select="city" /></div>
                     </div>
                     <div class="row">
-                        <div class="label">Numer telefonu</div>
+                        <div class="label">Phone number</div>
                         <div class="value"><xsl:value-of select="phone" /></div>
                     </div>
                     <div class="row">
@@ -30,7 +30,7 @@
                         <div class="value"><xsl:apply-templates select="email" /></div>
                     </div>
                     <div class="row">
-                        <div class="label">Linki</div>
+                        <div class="label">Links</div>
                         <div class="value">
                             <xsl:for-each select="links/link">
                                 <a href="{.}"><xsl:value-of select="." /></a><br />
@@ -40,7 +40,7 @@
                 </section>
 
                 <section class="history">
-                    <h2>Wykształcenie</h2>
+                    <h2>Education</h2>
                     <xsl:for-each select="education/*">
                         <div class="row">
                             <div class="dateRange"><xsl:value-of select="startYear" /> – <xsl:value-of select="endYear" /></div>
@@ -50,13 +50,13 @@
                 </section>
 
                 <section class="history">
-                    <h2>Doświadczenie</h2>
+                    <h2>Work experience</h2>
                     <xsl:for-each select="employment/job">
                         <div class="row">
                             <div class="dateRange">
                                 <xsl:value-of select="startDate" /> – <xsl:value-of select="endDate" />
                                 <xsl:if test="not(endDate)">
-                                    obecnie
+                                    now
                                 </xsl:if>
                             </div>
                             <div class="value"><xsl:value-of select="company" /> – <xsl:value-of select="duties" /></div>
@@ -65,7 +65,7 @@
                 </section>
                 
                 <section>
-                    <h2>Znajomość technologii</h2>
+                    <h2>Technologies</h2>
                     <ul class="skills">
                         <xsl:for-each select="skills/skill">
                             <li><xsl:value-of select="." /></li>
@@ -74,7 +74,7 @@
                 </section>
                 
                 <section id="conferences">
-                    <h2>Udział w konferencjach</h2>
+                    <h2>Conferences</h2>
                     <ul>
                         <xsl:for-each select="conferences/conference">
                             <li>
@@ -86,7 +86,16 @@
                 </section>
 
                 <section>
-                    <h2>Zainteresowania</h2>
+                    <h2>Would like to know better</h2>
+                    <ul class="skills">
+                        <xsl:for-each select="dreams/dream">
+                            <li><xsl:value-of select="." /></li>
+                        </xsl:for-each>
+                    </ul>
+                </section>
+                
+                <section>
+                    <h2>Interests</h2>
                     <ul>
                         <xsl:for-each select="interests/interest">
                             <li><xsl:value-of select="." /></li>
@@ -95,14 +104,14 @@
                 </section>
                 
                 <footer>
-                    Dokument został napisany w formacie XML i przetworzony na HTML za pomocą arkusza XSLT. PDF wygenerowano poprzez Google Chrome w trybie headless<br />
-                    Kod źródłowy dokumentu jest dostępny pod adresem https://github.com/phorzycki/resume
+                    This document was written in XML and converted to HTML with an XSLT sheet. PDF generated using headless Google Chrome<br />
+                    Source code is available at <a href="https://github.com/phorzycki/resume">https://github.com/phorzycki/resume</a>
                 </footer>
             </body>
         </html>
     </xsl:template>
     
     <xsl:template match="email">
-        <xsl:value-of select="username" />@<xsl:value-of select="domain" />
+        <a href="mailto:{username}@{domain}"><xsl:value-of select="username" />@<xsl:value-of select="domain" /></a>
     </xsl:template>
 </xsl:stylesheet>

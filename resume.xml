@@ -4,7 +4,7 @@
     <name>Piotr Horzycki</name>
     <birthday>1989</birthday>
     <city>Gdańsk</city>
-    <phone>508-562-247</phone>
+    <phone>+48-508-562-247</phone>
     <email>
         <username>piotr.horzycki</username>
         <domain>gmail.com</domain>
@@ -20,9 +20,9 @@
         <university>
             <startYear>2008</startYear>
             <endYear>2012</endYear>
-            <name>Politechnika Łódzka</name>
-            <division>Wydział Fizyki Technicznej, Informatyki i Matematyki Stosowanej</division>
-            <title>inżynier</title>
+            <name>Łódź University of Technology</name>
+            <division>Faculty of Technical Physics, Information Technology and Applied Mathematics</division>
+            <title>Bachelor of Engineering</title>
         </university>
     </education>
 
@@ -30,31 +30,31 @@
         <job>
             <startDate>2016-11</startDate>
             <company>Yellow Dot</company>
-            <duties>szef zespołu programistów PHP na zlecenie Gdańskiego Wydawnictwa Oświatowego</duties>
+            <duties>PHP team leader on behalf of GWO</duties>
         </job>
         <job>
             <startDate>2014-11</startDate>
             <endDate>2016-11</endDate>
-            <company>Gdańskie Wydawnictwo Oświatowe</company>
-            <duties>programista PHP, code review, deployment</duties>
+            <company>Gdańskie Wydawnictwo Oświatowe (gwo.pl)</company>
+            <duties>PHP development, code review, deployment automation</duties>
         </job>
         <job>
             <startDate>2013-12</startDate>
             <endDate>2014-11</endDate>
-            <company>Gdańskie Wydawnictwo Oświatowe</company>
-            <duties>programista PHP</duties>
+            <company>Gdańskie Wydawnictwo Oświatowe (gwo.pl)</company>
+            <duties>PHP developer</duties>
         </job>
         <job>
             <startDate>2008-06</startDate>
             <endDate>2013-12</endDate>
-            <company>Agencja Prasowo-Reklamowa "IMEDIA", Kutno</company>
-            <duties>programista PHP/Java, administrator LAN</duties>
+            <company>IMEDIA, Kutno</company>
+            <duties>PHP/Java developer, LAN and server admin</duties>
         </job>
     </employment>
 
     <skills>
         <skill>PHP 7, Symfony 3</skill>
-        <skill>SOLID, testy automatyczne</skill>
+        <skill>SOLID, unit tests</skill>
         <skill>MySQL, PostgreSQL</skill>
         <skill>Git, GitLab CI, Vagrant</skill>
         <skill>node.js, gulp</skill>
@@ -64,27 +64,27 @@
     <conferences>
         <conference>
             <name>PHPers Trójmiasto</name>
-            <date>22 listopada 2016 r.</date>
+            <date>November 22nd, 2016</date>
             <title>Ostre odchudzanie baz danych</title>
             <link>https://youtu.be/bgNGrCrn9-w</link>
         </conference>
         <conference>
             <name>phpCE 2017 Ossa</name>
-            <date>3-5 listopada 2017 r.</date>
+            <date>November 3-5th, 2017</date>
             <title>Jak zacząć, aby nie żałować; Time-driven applications</title>
-            <link>https://2017.phpce.eu/pl/</link>
+            <link>https://2017.phpce.eu/</link>
         </conference>
     </conferences>
 
     <dreams>
         <dream>Domain-Driven Design</dream>
         <dream>Event Sourcing</dream>
-        <dream>skalowalność</dream>
+        <dream>scalability</dream>
     </dreams>
 
     <interests>
-        <interest>tworzenie muzyki</interest>
-        <interest>realizacja dźwięku</interest>
-        <interest>fotografia</interest>
+        <interest>making music</interest>
+        <interest>sound engineering</interest>
+        <interest>photography</interest>
     </interests>
 </resume>
