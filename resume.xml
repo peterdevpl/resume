@@ -1,65 +1,65 @@
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet type="text/xsl" href="resume.xsl"?>
 <resume>
-	<name>Piotr Horzycki</name>
-	<birthday>1989</birthday>
-	<city>Gdańsk</city>
-	<phone>508-562-247</phone>
-	<email>
-		<username>piotr.horzycki</username>
-		<domain>gmail.com</domain>
-	</email>
+    <name>Piotr Horzycki</name>
+    <birthday>1989</birthday>
+    <city>Gdańsk</city>
+    <phone>508-562-247</phone>
+    <email>
+        <username>piotr.horzycki</username>
+        <domain>gmail.com</domain>
+    </email>
     <links>
         <link>https://piotrdev.blogspot.com/</link>
         <link>https://twitter.com/phorzycki</link>
         <link>https://github.com/phorzycki</link>
     </links>
-	<photo>resume.jpg</photo>
+    <photo>resume.jpg</photo>
 
-	<education>
-		<university>
-			<startYear>2008</startYear>
-			<endYear>2012</endYear>
-			<name>Politechnika Łódzka</name>
-			<division>Wydział Fizyki Technicznej, Informatyki i Matematyki Stosowanej</division>
-			<title>inżynier</title>
-		</university>
-	</education>
+    <education>
+        <university>
+            <startYear>2008</startYear>
+            <endYear>2012</endYear>
+            <name>Politechnika Łódzka</name>
+            <division>Wydział Fizyki Technicznej, Informatyki i Matematyki Stosowanej</division>
+            <title>inżynier</title>
+        </university>
+    </education>
 
-	<employment>
-		<job>
-			<startDate>2016-11</startDate>
-			<company>Yellow Dot</company>
-			<duties>szef zespołu programistów PHP na zlecenie Gdańskiego Wydawnictwa Oświatowego</duties>
-		</job>
-		<job>
-			<startDate>2014-11</startDate>
-			<endDate>2016-11</endDate>
-			<company>Gdańskie Wydawnictwo Oświatowe</company>
-			<duties>programista PHP, code review, deployment</duties>
-		</job>
-		<job>
-			<startDate>2013-12</startDate>
-			<endDate>2014-11</endDate>
-			<company>Gdańskie Wydawnictwo Oświatowe</company>
-			<duties>programista PHP</duties>
-		</job>
-		<job>
-			<startDate>2008-06</startDate>
-			<endDate>2013-12</endDate>
-			<company>Agencja Prasowo-Reklamowa "IMEDIA", Kutno</company>
-			<duties>programista PHP/Java, administrator LAN</duties>
-		</job>
-	</employment>
+    <employment>
+        <job>
+            <startDate>2016-11</startDate>
+            <company>Yellow Dot</company>
+            <duties>szef zespołu programistów PHP na zlecenie Gdańskiego Wydawnictwa Oświatowego</duties>
+        </job>
+        <job>
+            <startDate>2014-11</startDate>
+            <endDate>2016-11</endDate>
+            <company>Gdańskie Wydawnictwo Oświatowe</company>
+            <duties>programista PHP, code review, deployment</duties>
+        </job>
+        <job>
+            <startDate>2013-12</startDate>
+            <endDate>2014-11</endDate>
+            <company>Gdańskie Wydawnictwo Oświatowe</company>
+            <duties>programista PHP</duties>
+        </job>
+        <job>
+            <startDate>2008-06</startDate>
+            <endDate>2013-12</endDate>
+            <company>Agencja Prasowo-Reklamowa "IMEDIA", Kutno</company>
+            <duties>programista PHP/Java, administrator LAN</duties>
+        </job>
+    </employment>
 
-	<skills>
-		<skill>PHP 7, Symfony 3</skill>
-		<skill>SOLID, testy automatyczne</skill>
-		<skill>MySQL, PostgreSQL</skill>
-		<skill>Git, GitLab CI, Vagrant</skill>
-		<skill>node.js, gulp</skill>
-		<skill>ElasticSearch, RabbitMQ, Redis</skill>
-	</skills>
+    <skills>
+        <skill>PHP 7, Symfony 3</skill>
+        <skill>SOLID, testy automatyczne</skill>
+        <skill>MySQL, PostgreSQL</skill>
+        <skill>Git, GitLab CI, Vagrant</skill>
+        <skill>node.js, gulp</skill>
+        <skill>ElasticSearch, RabbitMQ, Redis</skill>
+    </skills>
     
     <conferences>
         <conference>
@@ -76,15 +76,15 @@
         </conference>
     </conferences>
 
-	<dreams>
-		<dream>Domain-Driven Design</dream>
-		<dream>Event Sourcing</dream>
-		<dream>skalowalność</dream>
-	</dreams>
+    <dreams>
+        <dream>Domain-Driven Design</dream>
+        <dream>Event Sourcing</dream>
+        <dream>skalowalność</dream>
+    </dreams>
 
-	<interests>
-		<interest>tworzenie muzyki</interest>
-		<interest>realizacja dźwięku</interest>
-		<interest>fotografia</interest>
-	</interests>
+    <interests>
+        <interest>tworzenie muzyki</interest>
+        <interest>realizacja dźwięku</interest>
+        <interest>fotografia</interest>
+    </interests>
 </resume>
